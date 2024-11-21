@@ -1,0 +1,34 @@
+.hero-container {
+    background-color: #fefbf7; /* สีพื้นหลัง */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-text {
+    font-family: 'Serif', serif;
+    font-size: 3rem;
+    color: #1f1f1f;
+    line-height: 1.5;
+  }
+  
+  .hero-button {
+    margin-top: 20px;
+    background-color: #fdd835; /* สีปุ่มเหลือง */
+    color: #1f1f1f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-button:hover {
+    background-color: #ffc107; /* สีปุ่มเมื่อ hover */
+  }
+  
+  

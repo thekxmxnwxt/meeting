@@ -1,0 +1,92 @@
+/* การกำหนดพื้นฐานสำหรับแสดงพลุ */
+@keyframes fireworks-explosion {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(5);
+    opacity: 0;
+  }
+}
+
+.firework {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff6347; /* สีแดงสำหรับพลุ */
+  opacity: 0;
+  animation: fireworks-explosion 1s ease-out forwards;
+}
+
+.firework:nth-child(1) {
+  animation-delay: 0s;
+  left: 50%;
+  top: 50%;
+}
+
+.firework:nth-child(2) {
+  animation-delay: 0.2s;
+  left: 60%;
+  top: 40%;
+}
+
+.firework:nth-child(3) {
+  animation-delay: 0.4s;
+  left: 55%;
+  top: 45%;
+}
+
+.firework:nth-child(4) {
+  animation-delay: 0.6s;
+  left: 45%;
+  top: 55%;
+}
+
+.firework:nth-child(5) {
+  animation-delay: 0.8s;
+  left: 50%;
+  top: 45%;
+}
+
+.firework:nth-child(6) {
+  animation-delay: 1s;
+  left: 55%;
+  top: 50%;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fdfbf5; /* ครีมอ่อน */
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.message-text {
+  font-size: 4rem;
+  color: #1f1f1f;
+  font-family: 'Serif', serif;
+}
+
+.message-date {
+  font-size: 3rem;
+  color: #ffffff;
+  font-family: 'Cursive', Arial, sans-serif;
+  padding: 20px;  /* เพิ่ม padding เพื่อให้ข้อความไม่ติดขอบ */
+  border: 2px solid #547d67; /* กรอบสี่เหลี่ยม */
+  border-radius: 10px;  /* ขอบมน */
+  margin: 20px 0;  /* ระยะห่างจากข้อความข้างบน */
+  background-color: #306333;  /* พื้นหลังขาว */
+}
+
+.message-other {
+  font-size: 1.2rem;
+  color: #1f1f1f;
+  font-family: 'Serif', serif;
+}

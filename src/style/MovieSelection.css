@@ -1,0 +1,52 @@
+body {
+    background-color: #fefbf7;
+    font-family: 'Serif', serif;
+  }
+  
+  .movie-selection-container {
+    background-color: #fefbf7; /* สีพื้นหลัง */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #1f1f1f;
+    margin-bottom: 30px;
+  }
+  
+  .movie-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .movie-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .movie-image {
+    width: 200px;
+    height: 260px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #1f1f1f;
+  }
+  
+  input[type='radio'] {
+    margin-right: 10px;
+  }
+  
+  

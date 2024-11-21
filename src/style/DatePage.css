@@ -1,0 +1,50 @@
+.hero-container {
+    background-color: #fefbf7; /* สีพื้นหลัง */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-text {
+    font-family: 'Serif', serif;
+    font-size: 3rem;
+    color: #1f1f1f;
+    line-height: 1.5;
+  }
+  
+  .date-button {
+    margin-top: 20px;
+    background-color: #35fd50; /* สีปุ่มเหลือง */
+    color: #1f1f1f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .date-button:hover {
+    background-color: #5eff07; /* สีปุ่มเมื่อ hover */
+  }
+  
+  .date-picker-container {
+    margin: 20px 0; /* เว้นระยะระหว่าง hero-text และปุ่ม */
+  }
+  
+  .react-datepicker-wrapper {
+    display: inline-block;
+  }
+  
+  .react-datepicker__input-container input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+  }
+  
